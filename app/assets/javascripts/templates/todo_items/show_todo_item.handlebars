@@ -1,0 +1,20 @@
+<div class="well span4">
+  <p>{{todo_item.title}}</p>
+  <p>{{todo_item.content}}</p>
+  <p>
+    {{#if todo_item.done}}
+    <span class="label label-success">
+      <i class="icon-ok"></i>
+    </span>
+    {{else}}
+    <span class="label label-important">
+      <i class="icon-remove"></i>
+    </span>
+    {{/if}}
+    <div class="btn-group">
+      <button href="#" class="btn btn-mini btn-danger pull-right">
+        <i class="icon-ban-circle"></i>
+      </button>
+    </div>
+  </p>
+</div>

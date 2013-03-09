@@ -1,0 +1,1 @@
+class Todo.TodoItemsController extends Ember.ArrayController

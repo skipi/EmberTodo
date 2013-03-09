@@ -1,0 +1,1 @@
+class Todo.ApplicationController extends Ember.Controller

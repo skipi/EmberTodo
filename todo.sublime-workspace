@@ -1,0 +1,736 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vo",
+				"voy_request_header_free(RequestHeader *request_header)	void"
+			],
+			[
+				"g_timer_",
+				"g_timer_destroy(GTimer *timer)	void"
+			],
+			[
+				"g_io_ch",
+				"g_io_channel_unref(GIOChannel *channel)	void"
+			],
+			[
+				"req",
+				"request_header	RequestHeader *"
+			],
+			[
+				"requ",
+				"request_params	gchar **"
+			],
+			[
+				"voy_req",
+				"voy_request_header_get(gchar *const key, RequestHeader *request_header)	gchar *"
+			],
+			[
+				"voy_",
+				"voy_request_header_get(gchar *const key, RequestHeader *request_header)	gchar *"
+			],
+			[
+				"acc",
+				"accept_language	gchar *"
+			],
+			[
+				"acce",
+				"accept_encoding	gchar *"
+			],
+			[
+				"voy_reques",
+				"voy_request_header_set(gchar *const key, gchar *const value, RequestHeader *request_header)	void"
+			],
+			[
+				"voy",
+				"voy_request_header_set_request(gchar *const request_string, RequestHeader *request_header)	void"
+			],
+			[
+				"re",
+				"response_header"
+			],
+			[
+				"res",
+				"request_header"
+			],
+			[
+				"g_print",
+				"g_print_request_fields(RequestHeader *request_header)	void"
+			],
+			[
+				"g_ptr_a",
+				"g_ptr_array_index(array, index_)((array)->pdata)	macro"
+			],
+			[
+				"reques",
+				"request_query	GArray *"
+			],
+			[
+				"GA",
+				"GArray	typedef"
+			],
+			[
+				"reqe",
+				"request_query	GArray *"
+			],
+			[
+				"request",
+				"request_part	gchar*"
+			],
+			[
+				"read",
+				"read_buffer	gchar[]"
+			],
+			[
+				"write_",
+				"write_buffer_n	gsize"
+			],
+			[
+				"rea",
+				"read_buffer_n	gsize"
+			],
+			[
+				"gnet_io_channel_rea",
+				"gnet_io_channel_readline_strdup(GIOChannel *channel, gchar **bufferp, gsize *bytes_readp)	GIOError"
+			],
+			[
+				"ini",
+				"initialize_request_header(gchar *request_query)	struct RequestHeader *"
+			],
+			[
+				"read_b",
+				"read_buffer_n	gsize"
+			],
+			[
+				"read_",
+				"read_buffer_n	gsize"
+			],
+			[
+				"gnet_io_",
+				"gnet_io_channel_readn(GIOChannel *channel, gpointer buffer, gsize length, gsize *bytes_readp)	GIOError"
+			],
+			[
+				"Exit",
+				"EXIT_SUCCESS	macro"
+			],
+			[
+				"thread",
+				"thread_array	GArray *"
+			],
+			[
+				"gprint",
+				"g_print(const gchar *format, ...)	void"
+			],
+			[
+				"g",
+				"gchar	typedef"
+			],
+			[
+				"file",
+				"file_base_name"
+			],
+			[
+				"g_lis",
+				"g_list_free1	macro"
+			],
+			[
+				"gb",
+				"g_bit_storage(gulong number)	guint"
+			],
+			[
+				"p",
+				"putchar(int __c)	int"
+			],
+			[
+				"do",
+				"do"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/templates/todo_item.handlebars",
+			"settings":
+			{
+				"buffer_size": 34,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/views/todo_item.js.coffee",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/C.sublime-build",
+	"command_palette":
+	{
+		"height": 201.0,
+		"selected_items":
+		[
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"file: de",
+				"File: Delete"
+			],
+			[
+				"File",
+				"File: Revert"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind	",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"to",
+				"View: Toggle Status Bar"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reine",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 304.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/skipi/Projekty/todo/.codeintel/config",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/store.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/store.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/templates/todo_item.handlebars",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/templates/todo_items.handlebars",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/routes/todo_item_route.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/routes/todo_items_route.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/controllers/todo_items_controller.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/controllers/todo_item_controller.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/application.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/models/todo_item.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/todo_app.js",
+		"/home/skipi/Projekty/todo_app/app/controllers/todo_items_controller.rb",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/controllers/todo_item_controller.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/controllers/todo_items_controller.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/templates/home.hbs.hamlbars",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/router.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/routes/application_route.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/views/application_view.js.coffee",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/router.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/routes/todo_item_route.js",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/routes/application_route.js",
+		"/home/skipi/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/skipi/Projekty/todo_app/app/assets/javascripts/views/application_view.js",
+		"/home/skipi/Projekty/todo_app/config/routes.rb",
+		"/home/skipi/Projekty/todo_app/app/controllers/application_controller.rb",
+		"/home/skipi/Projekty/todo_app/.codeintel/config",
+		"/home/skipi/Projekty/todo_app/Gemfile",
+		"/home/skipi/Projekty/todo_app/app/serializers/todo_item_serializer.rb",
+		"/home/skipi/Projekty/todo_app/app/views/todo_items/index.haml",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/skipi/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/skipi/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+		"/home/skipi/Projekty/todo_app/config/environments/development.rb",
+		"/home/skipi/Projekty/todo_app/todo_app.sublime-workspace",
+		"/home/skipi/Projekty/voyager1/src/voyager1.c",
+		"/home/skipi/Projekty/voyager1/src/response_header.h",
+		"/home/skipi/Projekty/voyager1/src/server.c",
+		"/home/skipi/Projekty/voyager1/src/request_header.h",
+		"/home/skipi/Projekty/voyager1/src/request_header.c",
+		"/home/skipi/Projekty/voyager1/src/cookie.c",
+		"/home/skipi/.config/sublime-text-2/Packages/User/C.sublime-build",
+		"/home/skipi/Projekty/voyager1/Makefile",
+		"/home/skipi/Projekty/voyager1/src/server.h",
+		"/home/skipi/Projekty/voyager1/src/response_header.c",
+		"/home/skipi/Projekty/voyager1/voyager1.sublime-project",
+		"/home/skipi/tmp/gnet/examples/echoclient.c",
+		"/home/skipi/tmp/gnet/examples/echoserver.c",
+		"/home/skipi/Projekty/voyager1/tcp.out",
+		"/home/skipi/Projekty/voyager1/tcp.c",
+		"/home/skipi/Projekty/voyager1/include/request_header.h",
+		"/home/skipi/Projekty/voyager1/include/request_header.c",
+		"/home/skipi/Projekty/voyager1/.gitignore",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/home/skipi/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/usr/include/gnet-2.0/tcp.h",
+		"/usr/include/gnet-2.0/iochannel.h",
+		"/home/skipi/Projekty/voyager1/threads.c",
+		"/usr/include/glib-2.0/glib/gtestutils.h",
+		"/home/skipi/Projekty/voyager1/lists.c",
+		"/home/skipi/.config/sublime-text-2/User",
+		"/usr/include/glib-2.0/glib/gprintf.h",
+		"/usr/include/glib-2.0/glib/gmacros.h",
+		"/usr/include/glib-2.0/glib/gmessages.h",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeClang/clang/include/stdarg.h",
+		"/usr/include/glib-2.0/glib/gtypes.h",
+		"/home/skipi/Projekty/voyager1/main",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeClang/Default.sublime-keymap",
+		"/home/skipi/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/usr/include/stdio.h",
+		"/home/skipi/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/skipi/.config/sublime-text-2/Packages/User/C.sublime-settings",
+		"/home/skipi/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/skipi/Projekty/andystwzone/Gemfile",
+		"/home/skipi/Projekty/andystwzone/public/index.html",
+		"/home/skipi/RubymineProjects/adpino/config/database.yml",
+		"/home/skipi/Projekty/andystwzone/config/database.yml",
+		"/home/skipi/RubymineProjects/workshops/examples/7/blog/app/views/pages/new.haml",
+		"/home/skipi/Projekty/blog/app/routes/pages.rb",
+		"/home/skipi/Projekty/blog/app/views/pages/show.haml",
+		"/home/skipi/Projekty/blog/app/views/pages/index.haml",
+		"/home/skipi/Projekty/blog/server.rb",
+		"/home/skipi/Projekty/blog/app/models/page.rb",
+		"/home/skipi/Projekty/blog/app/views/pages/_form.haml",
+		"/home/skipi/Projekty/blog/public/__entry__kat__post",
+		"/home/skipi/Projekty/blog/public/foo.txt",
+		"/home/skipi/Projekty/blog/Gemfile",
+		"/home/skipi/RubymineProjects/adpino/app/models/offer.rb",
+		"/home/skipi/RubymineProjects/adpino/app/models/widget.rb",
+		"/home/skipi/RubymineProjects/adpino/config/routes.rb",
+		"/home/skipi/RubymineProjects/adpino/app/models/offer_order.rb",
+		"/home/skipi/RubymineProjects/adpino/app/controllers/api/pages_controller.rb",
+		"/home/skipi/RubymineProjects/adpino/app/assets/javascripts/backbone/page/models/page.js.coffee",
+		"/home/skipi/RubymineProjects/adpino/app/controllers/offer_orders_controller.rb",
+		"/home/skipi/RubymineProjects/adpino/app/models/cart_offer.rb",
+		"/home/skipi/RubymineProjects/adpino/app/controllers/widget/widgets_controller.rb",
+		"/home/skipi/RubymineProjects/adpino/app/views/layouts/user.html.erb",
+		"/home/skipi/Projekty/SampleProject/public/index.html",
+		"/home/skipi/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/skipi/Projekty/sinatra/assets/application.css.sass",
+		"/home/skipi/Projekty/sinatra/views/layout.haml",
+		"/home/skipi/Projekty/sinatra/Gemfile",
+		"/home/skipi/Projekty/sinatra/.sublime/sinatra.sublime-project",
+		"/home/skipi/Projekty/sinatra/sinatra.sublime-project",
+		"/home/skipi/Projekty/sinatra/untitled.sublime-project",
+		"/home/skipi/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"addr",
+			"Accept",
+			"accept_charset",
+			"&&",
+			" &&",
+			":_",
+			"_",
+			"g_strcmp0",
+			"NULL",
+			"\"(.*)\"",
+			"NULL",
+			"request_header->",
+			" _(.*)",
+			"\"_(.*)\"",
+			");",
+			"request_header",
+			"g_print",
+			"if(",
+			"if",
+			"return",
+			"}",
+			"{",
+			")",
+			"\"(.*)\"",
+			"g_strcmp0(key, ",
+			" = g_strdup(value);",
+			"splitted",
+			"%p",
+			"%s",
+			"strdup",
+			"tmp",
+			"content_m_d5",
+			"  ",
+			".\n",
+			"  ",
+			" ",
+			"handle_client",
+			"static",
+			"g_stpcpy",
+			"value",
+			", ",
+			"request_header->",
+			"g_print",
+			"tmp",
+			"'",
+			" != NULL",
+			"else ",
+			"g_print",
+			"request_header",
+			"header",
+			"tmp",
+			"header",
+			"gchar",
+			"char",
+			"	",
+			"error",
+			"	",
+			"Content",
+			"Accept",
+			"Content",
+			"	",
+			"g_assert",
+			"thread_array",
+			".",
+			"arrayThread",
+			"number_list",
+			"list",
+			"g_bit_storage",
+			"printf",
+			"complete",
+			"auto",
+			"ctrl+space",
+			">",
+			"<",
+			">",
+			"<",
+			"html",
+			"]",
+			"[:",
+			"categories",
+			"public_path",
+			"\"Hello at the bar.\"",
+			"  ",
+			"4",
+			"require"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"_$1",
+			"",
+			"$1",
+			"  ",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/javascripts/templates/todo_item.handlebars",
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/views/todo_item.js.coffee",
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CoffeeLintPanel":
+	{
+		"height": 112.0
+	},
+	"output.clang":
+	{
+		"height": 154.0
+	},
+	"output.exec":
+	{
+		"height": 335.0
+	},
+	"output.git":
+	{
+		"height": 329.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"store",
+				"app/assets/javascripts/store.js.coffee"
+			],
+			[
+				"router.js",
+				"app/assets/javascripts/router.js.coffee"
+			],
+			[
+				"model/js",
+				"app/assets/javascripts/models/todo_item.js.coffee"
+			],
+			[
+				"todo_item_ro",
+				"app/assets/javascripts/routes/todo_item_route.js.coffee"
+			],
+			[
+				"application_r",
+				"app/assets/javascripts/routes/application_route.js.coffee"
+			],
+			[
+				"todo_items_con",
+				"app/controllers/todo_items_controller.rb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"request",
+				"src/request_header.h"
+			],
+			[
+				"pages",
+				"app/routes/pages.rb"
+			],
+			[
+				"apipages",
+				"app/controllers/api/pages_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": true
+}

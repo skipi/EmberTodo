@@ -1,3 +1,7 @@
 {{#each content}}
-  {{view Todo.ShowTodoItemView contactBinding="this"}}
+  {{view Todo.ShowTodoItemView contentBinding=this }}
 {{/each}}
+<div class="clearfix"></div>
+<div class="well span5">
+  {{ view Todo.NewTodoItemView }}
+</div>

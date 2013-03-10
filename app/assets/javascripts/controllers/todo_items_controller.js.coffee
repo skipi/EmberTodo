@@ -1,1 +1,1 @@
-class Todo.TodoItemsController extends Ember.ArrayController
+Todo.TodoItemsController = Ember.ArrayController.extend()

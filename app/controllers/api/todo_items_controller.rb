@@ -1,7 +1,11 @@
 class Api::TodoItemsController < ApplicationController
   respond_to :json
   def index
-    @todo_items = TodoItem.all
+    @todo_items = TodoItem.scoped
+
+    if type_param != nil
+      @todo_items = @todo_items.where(done: type_param)
+    end
 
     respond_with @todo_items
   end
@@ -29,5 +33,15 @@ class Api::TodoItemsController < ApplicationController
     @todo_item = TodoItem.find(params[:id])
 
     respond_with @todo_item.delete
+  end
+
+  private
+
+  def type_param
+    if params[:type] && (params[:type].in? %w(done not_done))
+      return params[:type] == 'done'
+    else
+      return nil
+    end
   end
 end

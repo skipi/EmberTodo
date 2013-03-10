@@ -1,0 +1,12 @@
+<p>
+  <i {{ bindAttr class="changed:icon-hand-right:icon-thumbs-up" }}></i>
+</p>
+<p>title: {{title}}</p>
+<p>content: {{content}}</p>
+<div>
+  <div class="btn-group">
+    {{ view Todo.Button.TodoToggle}}
+    {{ view Todo.Button.Delete }}
+  </div>
+
+</div>

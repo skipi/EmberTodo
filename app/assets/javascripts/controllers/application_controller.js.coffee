@@ -1,1 +1,1 @@
-class Todo.ApplicationController extends Ember.Controller
+Todo.ApplicationController = Ember.Controller.extend()
